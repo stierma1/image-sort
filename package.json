@@ -1,0 +1,28 @@
+{
+  "name": "image-sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/sort-engine.js",
+  "bin":{
+    "image-sort": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stierma1/image-sort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stierma1/image-sort/issues"
+  },
+  "homepage": "https://github.com/stierma1/image-sort#readme",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "glob": "^8.0.3",
+    "mkdirp": "^1.0.4",
+    "mv": "^2.1.1"
+  }
+}
